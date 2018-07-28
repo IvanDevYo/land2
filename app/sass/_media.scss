@@ -1,0 +1,211 @@
+@import "_vars";
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	#section1 {
+		background-position: -289px 0;
+    	background-repeat: no-repeat;
+	}
+
+	.rewiews-item  {
+		img {
+			height: 330px;
+		}
+	}
+
+	.bg-cotton-pic {
+		right: 0;
+	}
+
+	#section4 {
+		background-size: 1261px;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	.header-container {
+		align-items: center;
+	}
+
+	.header__contact {
+		margin-top: 15px;
+	}
+
+	.facts-item {
+		margin-bottom: 26px;
+	}
+
+	#section3 {
+		background-image: none;
+		background-color: #f1f1f1;
+	}
+
+	.ks-photo {
+		display: flex;
+		justify-content: center;
+	}
+
+	#section4 {
+		background-size: 2000px;
+	}
+
+	.rewiews-item  {
+		margin-bottom: 30px;
+		img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	
+	.section6-left-title {
+		margin-top: 0;
+	}
+
+	.iphonex {
+		display: none;
+	}
+
+	#section6 {
+		padding-bottom: 50px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	#section1 {
+		background-position: 0 0;
+	}
+
+	.header-container {
+		flex-direction: column;
+	}
+
+	.section1__price {
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
+
+	.header__call-button {
+		margin-left: 0;
+	}
+
+	.gallery-row {
+		justify-content: center;
+	}
+
+	.gallery-item {
+		width: 90%;
+	}
+
+	.gallery-img {
+		background-position: center !important;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.footer__logo {
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
+
+	.footer__contact-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+
+	.sm-flx-c {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+	#section1 {
+		background-size: cover;
+	}
+
+	.logo {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.charactristics-value {
+		font-size: 14px;
+	}
+
+	.bg-cotton {
+		display: none;
+	}
+
+	#section4 {
+		background-size: 2500px;
+	}
+
+	.section4__delivery {
+		flex-wrap: wrap;
+	}
+
+	.section4__delivery-description {
+		margin-bottom: 20px;
+	}
+
+	.socials-list {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.social-item {
+		margin-bottom: 21px;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	/**/
+}
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	/**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	/**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/**/
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	/**/
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	/**/
+}
+
